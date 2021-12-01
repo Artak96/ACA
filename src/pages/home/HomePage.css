@@ -1,0 +1,10 @@
+.home-main-logo {
+    font-size: 200px;
+    width: 300px;
+}
+
+.banner-bg div {
+    text-align: center;
+    background: transparent url("../../assets/Images/banner_bg.svg") 0% 0%
+        no-repeat padding-box;
+}

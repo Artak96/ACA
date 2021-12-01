@@ -1,0 +1,18 @@
+[
+    { "id": 1, "title": "AboutUs", "link": "about", "to": "/about" },
+    {
+        "id": 2,
+        "title": "Scholarship",
+        "link": "scholarship",
+        "to": "/scholarship"
+    },
+    {
+        "id": 3,
+        "title": "OurCommunity",
+        "link": "community",
+        "to": "/community"
+    },
+    { "id": 4, "title": "Radio", "link": "radio", "to": "/radio" },
+    { "id": 5, "title": "Gallery", "link": "gallery", "to": "/gallery" },
+    { "id": 5, "title": "Events", "link": "evnets", "to": "/evnets" }
+]

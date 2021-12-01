@@ -1,0 +1,36 @@
+.get-in-touch-title {
+    text-align: center;
+    font: normal normal normal 40px/47px Newake;
+    letter-spacing: 1.2px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.get-in-touch {
+    background: #fcfcfc;
+}
+
+.get-in-touch-field {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #005397;
+}
+
+.information-banner {
+    background-color: #005397;
+}
+.group-svg {
+    background-color: #005397;
+}
+
+.phone-svg {
+    background-color: #005397;
+}
+
+.social-site {
+    height: 54px;
+    width: 54px;
+    background: transparent url("../../assets/Images/Ellipse 128.svg") 0% 0%
+        no-repeat padding-box;
+}

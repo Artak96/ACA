@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "NavDonate",
+        "description": "DonateDescription",
+        "image": "../../assets/Images/donate.svg",
+        "button": "NavDonate"
+    },
+    {
+        "id": "2",
+        "title": "Volunteer",
+        "description": "VolunteerDescription",
+        "image": "../../assets/Images/volunteer@2x.png",
+        "button": "NavBecomeAMember"
+    }
+]

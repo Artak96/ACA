@@ -1,0 +1,24 @@
+.misssion-statement {
+    text-align: center;
+    padding: 216px 20px 75px 20px;
+}
+
+.misssion-statement-description {
+    font: normal normal normal 20px/38px Roboto;
+    margin-left: 324px;
+    margin-right: 324px;
+}
+
+.misssion-statement-title {
+    font: normal normal normal 62px/93px Newake;
+}
+
+.misssion-statement-title-1 {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.misssion-statement-title-2 {
+    font-weight: bold;
+    color: #ec9a26;
+}

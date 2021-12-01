@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "NavBecomeAMember",
+        "backgroundcolor": "#005397"
+    },
+    {
+        "id": 2,
+        "title": "NavDonate",
+        "backgroundcolor": "#EC9A26"
+    }
+]

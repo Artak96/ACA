@@ -1,0 +1,65 @@
+.ways-to-contribute {
+    text-align: center;
+    font: normal normal normal 40px/47px Newake;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.ways-to-contribute-donate {
+    text-align: left;
+    font: normal normal normal 32px/37px Newake;
+    letter-spacing: 0.67px;
+    color: #ec9a26;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #0000001c;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.ways-to-contribute-volunteer {
+    text-align: left;
+    font: normal normal normal 32px/37px Newake;
+    letter-spacing: 0.67px;
+    color: #005397;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #0000001c;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.ways-to-contribute-donate .donate-description {
+    text-align: left;
+    font: normal normal normal 18px/34px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.ways-to-contribute-volunteer .volunteer-description {
+    text-align: left;
+    font: normal normal normal 18px/34px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.image {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    justify-content: end;
+}
+
+.way-contributre-donate-col {
+    padding-left: 0px !important;
+}
+
+.way-contributre-volunteer-col {
+    padding-right: 0px !important;
+}
+
+.volunteer-image-wrapper {
+    text-align: end;
+}
