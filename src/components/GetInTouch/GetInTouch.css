@@ -7,7 +7,8 @@
     font-weight: bold;
 }
 
-.get-in-touch {
+.get_in_touch {
+    display: flex;
     background: #fcfcfc;
 }
 
@@ -23,24 +24,31 @@
     /* padding: ; */
 }
 .group-svg {
+    display: flex;
     margin-top: 17%;
+    width: 100%;
 }
 
 .phone-svg {
+    display: flex;
     margin-top: 11%;
 }
 
 .message-svg {
+    display: flex;
     margin-top: 9%;
 }
 
 .social-site {
+    display: flex;
     height: 54px;
     width: 54px;
     margin-top: 13%;
-    margin-left: 4%;
+    margin-left: 3%;
     background: transparent url("../../assets/Images/Ellipse 128.svg") 0% 0%
         no-repeat padding-box;
+        align-items: center;
+        justify-content: center;
 }
 
 .ful-name-item {
@@ -53,10 +61,6 @@
 
 .form-items {
     padding: 0px 7% 0px 21%;
-}
-
-.ex_div {
-    display: flex;
 }
 
 .full_name_email_fields input {
@@ -81,6 +85,8 @@
 .form_fields {
     padding: 0px 3% 0px 8%;
     width: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .message_field {
@@ -96,6 +102,8 @@
     color: #ffffff;
     font-weight: bold;
     border-radius: 14px;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .full_name_email_fields {
@@ -126,4 +134,17 @@
     height: 40px;
     margin-top: 7%;
     margin-left: 4%;
+}
+
+.image_part{
+    width: 10%;
+}
+
+.description_part{
+    width: 70%;
+    margin-left: 4%;
+}
+
+.all_banner_item{
+    margin-left: 18%;
 }

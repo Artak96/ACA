@@ -23,9 +23,10 @@ const HomePage = () => {
                 <WaysToContribute />
                 <Contributions />
                 <GetInTouch />
+                <div style={{ height: "900px" }}></div>
                 <Footer />
             </Container>
-            <div style={{ height: "900px" }}></div>
+           
         </div>
     );
 };
