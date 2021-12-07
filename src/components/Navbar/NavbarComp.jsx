@@ -1,34 +1,21 @@
 import React, { useState } from "react";
-import {
-    Button,
-    Container,
-    Form,
-    FormControl,
-    Nav,
-    NavDropdown,
-    Navbar,
-} from "react-bootstrap";
+import { Button, Container, Image, Nav, Navbar } from "react-bootstrap";
 import LanguageMenu from "../../elements/LanguageMenu";
-import MainLogo from "../MainLogo/MainLogo";
 import AttributeNav from "../Navs/AttributeNav";
 import dataNav from "../../data/Navbar/nav-appstyle-dta.json";
 import buttonNav from "../../data/Navbar/navbar-button.json";
 import "./NavbarComp.css";
-import acabcLogo from "../../assets/Images/acabc_logo.png";
-import AboutUs from "../AboutUs/AboutUs";
-import Gallery from "../Gallery/Gallery";
-import Radio from "../Radio/Radio";
-import Scoralship from "../Scoralship/Scoralship";
 import { FormattedMessage } from "react-intl";
+import MainIcon from "../../assets/Images/acabc_logo@2x.png";
 
 const NavbarComp = () => {
     const [navbarIcon, setNavbarIcon] = useState(false);
 
     const hiddenIcon = () => {
-        if (window.scrollY < 40) {
-            setNavbarIcon(true);
-        } else {
+        if (window.scrollY < 140) {
             setNavbarIcon(false);
+        } else {
+            setNavbarIcon(true);
         }
     };
 
@@ -38,17 +25,20 @@ const NavbarComp = () => {
         <div>
             <Navbar
                 bg="#FFFFF"
-                expand="lg"
-                className={"fixed-top navbar-comp" + (navbarIcon ? " " : "")}
+                // expand="lg"
+                className="fixed-top navbar-comp"
             >
                 <Container fluid>
-                    {/* <Navbar.Brand href="">Navbar scroll</Navbar.Brand> */}
-                    <div className="main-logo">
-                        <MainLogo />
-                    </div>
+                    {navbarIcon ? (
+                        <div className="main-logo">
+                            <Image src={MainIcon} style={{ width: "70%" }} />
+                        </div>
+                    ) : (
+                        " "
+                    )}
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <div className="divLeft">
+                        <div className={navbarIcon ? "" : "div-left"}>
                             <Nav
                                 className="me-auto my-2 my-lg-0"
                                 style={{ maxHeight: "100px" }}
@@ -68,7 +58,7 @@ const NavbarComp = () => {
                                 </AttributeNav>
                             </Nav>
                         </div>
-                        <div className="divRight">
+                        <div className="div-right">
                             {buttonNav.map((item) => (
                                 <Button
                                     variant="primary"

@@ -25,7 +25,7 @@ const HomePage = () => {
                 <GetInTouch />
                 <Footer />
             </Container>
-            {/* <div style={{ height: "900px" }}></div> */}
+            <div style={{ height: "900px" }}></div>
         </div>
     );
 };
