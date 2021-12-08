@@ -9,16 +9,14 @@ import WaysToContribute from "../../components/WaysToContribute/WaysToContribute
 import Contributions from "../../components/Contributions/Contributions";
 import GetInTouch from "../../components/GetInTouch/GetInTouch";
 import Footer from "../../components/Footer/Footer";
+import InvestorBanner from "../../components/InvestorBanner/InvestorBanner";
 
 const HomePage = () => {
     return (
         <Container fluid className="main_container">
             <NavbarComp />
             <MissionStatement />
-            <div className="banner-bg">
-                <div>Asatryan Armen</div>
-                <div>february 25,2021</div>
-            </div>
+            <InvestorBanner />
             <WaysToContribute />
             <Contributions />
             <GetInTouch />

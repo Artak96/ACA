@@ -3,7 +3,7 @@
     font: normal normal normal 22px/36px Newake;
     letter-spacing: 0.66px;
     color: #000000;
-    margin-left: 85px;
+    margin-left: 2%;
     /* font-weight: bold; */
     opacity: 1;
 }
@@ -15,9 +15,10 @@
 }
 
 .carousel-indicators [data-bs-target] {
-    background-color: #ec9a26;
-    width: 9px;
-    height: 8px;
+    background-color: #ec9a26 !important;
+    width: 14px !important;
+    height: 13px !important;
+    border: 3px solid #ec9a26;
     border-radius: 50%;
 }
 
@@ -30,8 +31,8 @@
     border-right: 0.3em solid transparent;
     border-bottom: 0;
     border-left: 0.3em solid transparent;
-    color: #ec9a26;
-    margin-left: 2px;
+    color: #ec9a26 !important;
+    margin-left: 1px;
 }
 
 .arrows_icon {

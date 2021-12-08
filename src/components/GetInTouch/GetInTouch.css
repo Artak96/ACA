@@ -4,12 +4,14 @@
     letter-spacing: 1.2px;
     color: #000000;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
+    margin-top: 6%;
 }
 
 .get_in_touch {
     display: flex;
     background: #fcfcfc;
+    margin-top: 5%;
 }
 
 .get-in-touch-field {

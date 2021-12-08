@@ -47,12 +47,12 @@ const LanguageMenu = () => {
                                 countryCode={context?.state?.locale}
                                 svg
                             />
-                            <span className="ms-2 text-uppercase">
+                            {/* <span className="ms-2 text-uppercase">
                                 <FormattedMessage id="Language" />
-                            </span>
+                            </span> */}
                         </a>
                         <ul
-                            className="dropdown-menu dropdown-item cart-list animated "
+                            className="dropdown-menu dropdown-item cart-list animated"
                             style={{ display: "none" }}
                         >
                             {languageData.map((item) => {
@@ -74,9 +74,9 @@ const LanguageMenu = () => {
                                                 countryCode={item.key}
                                                 svg
                                             />
-                                            <span className="ms-2 text-uppercase">
+                                            {/* <span className="ms-2 text-uppercase">
                                                 {item.name}
-                                            </span>
+                                            </span> */}
                                         </a>
                                     </li>
                                 );

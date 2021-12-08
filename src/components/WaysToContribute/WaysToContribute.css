@@ -1,4 +1,4 @@
-.ways-to-contribute {
+/* .ways-to-contribute {
     text-align: center;
     font: normal normal normal 40px/47px Newake;
     letter-spacing: 1.2px;
@@ -62,4 +62,132 @@
 
 .volunteer-image-wrapper {
     text-align: end;
+} */
+
+.ways-to-contribute {
+    text-align: center;
+    font: normal normal normal 40px/47px Newake;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 6%;
+    opacity: 1;
+}
+
+.ways-to-contribute-donate {
+    text-align: left;
+    font: normal normal normal 32px/37px Newake;
+    letter-spacing: 0.67px;
+    color: #ec9a26;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #0000001c;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.ways-to-contribute-volunteer {
+    text-align: left;
+    font: normal normal normal 32px/37px Newake;
+    letter-spacing: 0.67px;
+    color: #005397;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #0000001c;
+    font-weight: bolder;
+    height: 100%;
+    opacity: 1;
+}
+
+.ways-to-contribute-donate .donate-description {
+    text-align: left;
+    font: normal normal normal 18px/34px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.ways-to-contribute-volunteer .volunteer-description {
+    text-align: left;
+    font: normal normal normal 18px/34px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-top: 4%;
+    opacity: 1;
+}
+
+.image-donate {
+    /* background: #ffffff 0% 0% no-repeat padding-box;
+    justify-content: end; */
+    background: transparent url("../../assets/Images/donate.svg") 0% 0%
+        no-repeat padding-box;
+    height: 587px;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.way-contributre-donate-col {
+    padding-left: 0px !important;
+}
+
+.way-contributre-volunteer-col {
+    padding-right: 0px !important;
+}
+
+.image-voluntee-childe {
+    background: transparent url("../../assets/Images/Volunteer.svg") 0% 0%
+        no-repeat padding-box;
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 519px;
+    /* height: 589px;
+    width: 519px; */
+}
+
+/* .image-voluntee{
+    text-align: -webkit-right;
+} */
+
+.primary-button {
+    background: #e4922e !important;
+    border-radius: 30px !important;
+    height: 60px;
+    width: 28%;
+    border: none !important;
+    font: normal normal bold 25px/30px Roboto;
+    /* letter-spacing: 0px; */
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 9%;
+    margin-left: 60%;
+    font-weight: bolder;
+}
+
+.primary-button:hover {
+    background-color: #fa8c06 !important;
+}
+
+.size-description {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.become-member-button {
+    background: #005397 !important;
+    border-radius: 30px !important;
+    font: normal normal bold 21px/25px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 60px;
+    margin-top: 89%;
+    margin-left: 51%;
+    width: 117%;
+    border: none !important;
+    opacity: 1;
+}
+
+.ways-to-contribute-row {
+    margin-top: 5% !important;
 }
