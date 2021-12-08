@@ -17,6 +17,7 @@
     outline: none;
     border-bottom: 3px solid #005397;
     margin: 0% !important;
+    background-color: #fcfcfc;
 }
 
 .information-banner {
@@ -47,8 +48,8 @@
     margin-left: 3%;
     background: transparent url("../../assets/Images/Ellipse 128.svg") 0% 0%
         no-repeat padding-box;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .ful-name-item {
@@ -136,15 +137,15 @@
     margin-left: 4%;
 }
 
-.image_part{
+.image_part {
     width: 10%;
 }
 
-.description_part{
+.description_part {
     width: 70%;
     margin-left: 4%;
 }
 
-.all_banner_item{
+.all_banner_item {
     margin-left: 18%;
 }

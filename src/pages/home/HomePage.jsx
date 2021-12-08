@@ -12,22 +12,19 @@ import Footer from "../../components/Footer/Footer";
 
 const HomePage = () => {
     return (
-        <div>
-            <Container fluid>
-                <NavbarComp />
-                <MissionStatement />
-                <div className="banner-bg">
-                    <div>Asatryan Armen</div>
-                    <div>february 25,2021</div>
-                </div>
-                <WaysToContribute />
-                <Contributions />
-                <GetInTouch />
-                <div style={{ height: "900px" }}></div>
-                <Footer />
-            </Container>
-           
-        </div>
+        <Container fluid className="main_container">
+            <NavbarComp />
+            <MissionStatement />
+            <div className="banner-bg">
+                <div>Asatryan Armen</div>
+                <div>february 25,2021</div>
+            </div>
+            <WaysToContribute />
+            <Contributions />
+            <GetInTouch />
+            <div style={{ height: "900px" }}></div>
+            <Footer />
+        </Container>
     );
 };
 
