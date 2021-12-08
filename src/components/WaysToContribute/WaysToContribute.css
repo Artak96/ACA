@@ -164,6 +164,10 @@
     font-weight: bolder;
 }
 
+/* .primary-button:hover {
+    background: #f38805;
+} */
+
 .primary-button:hover {
     background-color: #fa8c06 !important;
 }
@@ -186,6 +190,10 @@
     width: 117%;
     border: none !important;
     opacity: 1;
+}
+
+.become-member-button:hover {
+    background: #013b6b !important;
 }
 
 .ways-to-contribute-row {

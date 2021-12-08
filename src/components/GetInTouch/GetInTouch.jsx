@@ -5,9 +5,6 @@ import "./GetInTouch.css";
 import Group from "../../assets/Images/Group 69.svg";
 import Phone from "../../assets/Images/Icon feather-phone.svg";
 import Message from "../../assets/Images/email.svg";
-import Twitter from "../../assets/Images/Icon awesome-twitter.svg";
-import Youtube from "../../assets/Images/Icon awesome-youtube.svg";
-import Facebook from "../../assets/Images/Icon zocial-facebook.svg";
 import SocIcons from "../../data/Social/social-data";
 
 const GetInTouch = () => {

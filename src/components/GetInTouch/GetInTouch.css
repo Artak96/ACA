@@ -30,16 +30,19 @@
     display: flex;
     margin-top: 17%;
     width: 100%;
+    cursor: pointer;
 }
 
 .phone-svg {
     display: flex;
     margin-top: 11%;
+    cursor: pointer;
 }
 
 .message-svg {
     display: flex;
     margin-top: 9%;
+    cursor: pointer;
 }
 
 .social-site {
@@ -52,6 +55,7 @@
         no-repeat padding-box;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .ful-name-item {
@@ -137,6 +141,10 @@
     height: 40px;
     margin-top: 7%;
     margin-left: 4%;
+}
+
+.inner_send_message:hover {
+    background: #f79103;
 }
 
 .image_part {
